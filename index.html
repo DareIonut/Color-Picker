@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="game-style.css" />
+    <script src="color-picker.js" defer></script>
+    <title>ColorGuess</title>
+  </head>
+
+  <body>
+    <div class="view">
+      <div class="the-game-container">
+        <h1>
+          <b>ColorGuess</b>
+          <br />
+          <span id="color-display">RGB</span>
+          <br />
+          Guess the RGB!
+        </h1>
+
+        <div id="stripe">
+          <button id="reset">Play</button>
+          <span id="message"></span>
+          <button id="easy">Easy</button>
+          <button id="hard" class="selected">Hard</button>
+        </div>
+
+        <div id="container-square">
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

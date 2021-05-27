@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    }
+html{
+    font-size: 62.5%;
+}
+.view{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(152, 185, 223);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.the-game-container{
+    width: 50vw;
+    min-height: 90vh;
+    box-shadow: 0 0 15px;
+    background: #232322
+}
+.square {
+    width: 30%;
+    background: "#232323";
+    padding-bottom: 30%;
+    float:left;
+    margin: 1.66%;
+    border-radius: 25px;
+    transition: background 1.5s;
+}
+#container-square{
+    margin: 20px auto;
+    max-width: 600px;
+}
+h1{
+    font-size: 3.5rem;
+    color:white;
+    line-height:1.1;
+    font-weight: normal;
+    text-align: center;
+    background:steelblue;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 20 px 0px; 
+
+}
+#color-display{
+    font-size: 200%;
+}
+#stripe{
+    background: white;
+    height: 30px;
+    font-size: 2rem;
+    text-align: center;
+}
+.selected {
+    background: steelblue;
+    color: white;
+}
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    --webkit-transition: background 0.6s;
+    --moz-transition: background 0.6s
+    outline: none;
+
+}
+#message{
+    font-family: 'Open Sans', sans-serif;
+    color:steelblue;
+    display: inline-block;
+    width: 20%;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height:1.1;
+
+
+}
+button:hover{
+    color: white;
+    background: steelblue;
+}
+.navbar{
+    
+    background:steelblue;
+
+}
+@media (max-width:650px){
+    .the-game-container{
+        width: 100vw;
+        min-height: 80vh;
+        box-shadow: 0 0 15px;
+        background: #232322
+    }
+}
